@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body{
+    margin: 0; 
+}
+.todos-bg-container {
+    background-image:url("https://img.freepik.com/premium-photo/amazing-nature-scenery-night-star-galaxy-sky-clouds-scenery_1105964-3474.jpg?w=1060");
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color:white;
+}
+
+
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.add-button:hover{
+    color:rgb(41, 62, 182);
+    background-color: white;
+}
+
+.create-task-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.todo-items-container {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+.class-container{
+    display: flex;
+    flex-direction: column;
+}
+.add-button{
+    margin-left: 55%;
+    width:10%;
+}
+.todo-user-input {
+    background-color: white;
+    width: 50%; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 10%;
+    font-size:20px; 
+    font-family: "Arial";
+}
+
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.save-button:hover {
+    background:radial-gradient( rgb(82, 122, 209), rgb(77, 46, 189));
+    color:rgb(240, 241, 247); 
+    border-color: #070bf1;
+    border-style: solid;
+    border-width: 10%;
+    box-shadow:3px 3px  3px 3px rgb(107, 120, 231);
+}
+.save-button{
+    margin-left:60%; 
+
+}
+.label-container {
+    background-color: #ffffff;
+    min-width: 60%;
+    max-width: 100%;
+    border: 1px solid #420d88;
+    border-radius: 4px;
+    color:black;
+    overflow-y: auto;
+}
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.delete-icon-container:hover{
+    cursor: pointer;
+}
+.checked {  
+    text-decoration: line-through;
+    background-color: #4298a7;
+}
+#todoId{
+display: flex;
+flex:row;
+margin-left:10%;
+}
+.todo-item-container{
+    display: flex;
+    margin-left:5%;
+    flex-direction: row;
+    border-radius: 1%;
+}
+.label-container{
+    display: flex;
+    flex-direction: row;
+}
